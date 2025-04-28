@@ -1,0 +1,109 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center; /* <<< Esto centra todo el texto dentro del body */
+}
+
+/* Menú principal */
+nav {
+  background-color: #0c2340;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* <<< Centrar los enlaces */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #ffc72c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: 5px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #ffc72c;
+  color: #0c2340;
+}
+
+/* Filtro de oficinas */
+.c-filtro {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* <<< Centra los botones */
+  gap: 10px;
+}
+
+.c-filtro button {
+  background-color: #0c2340;
+  color: #ffffff;
+  border: 2px solid #ffc72c;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.c-filtro button:hover {
+  background-color: #ffc72c;
+  color: #0c2340;
+}
+
+/* Buscador */
+.c-buscador {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #0c2340;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Lista de criminales */
+.c-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* <<< Centra las tarjetas */
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Tarjeta individual */
+.c-lista-pokemon {
+  background-color: #ffffff;
+  border: 2px solid #0c2340;
+  border-radius: 12px;
+  padding: 15px;
+  width: 200px; /* <<< Hace que todas las tarjetas midan igual */
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.c-lista-pokemon:hover {
+  transform: translateY(-5px);
+  background-color: #ffc72c;
+}
+
+.c-lista-pokemon p {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #0c2340;
+}
+
+.c-lista-pokemon img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
