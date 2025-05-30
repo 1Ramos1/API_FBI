@@ -1,0 +1,26 @@
+.recompensas-container {
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.lista-recompensas {
+  list-style: none;
+  padding: 0;
+}
+
+.recompensa-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.recompensa-item img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
